@@ -8,4 +8,4 @@ Note: you will always receive a valid array containing a random assortment of di
 
 ### 2, 3 : Files, lambda, etc. 
 
-Syntax exercises. Commented code.
+Syntax exercises, commented code.
