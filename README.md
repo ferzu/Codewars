@@ -16,4 +16,5 @@ Four mirrors are placed in a way that they form a rectangle with corners at coor
 
 Here is an image of the light being reflected:
 
-![alt text] (https://github.com/ferzu/Codewars-Katas/blob/master/ReflectingLightExample.jpg)
+![alt text] (https://github.com/ferzu/Codewars-Katas/blob/master/ReflectingLightExample.jpg?raw=true)
+
