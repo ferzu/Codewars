@@ -24,16 +24,11 @@ def reflections(max_x, max_y):
             return True
     if k == 1 and not d: #square size area
         return True
-    else: # While working out a vectorial solution for the reflections. When d!=0 the puzzel complicates, this solution is not accurate enough. 
+    else: # Working out a vectorial solution for the reflections. When d!=0 the puzzel complicates, this solution is not accurate enough. 
         return False
 
 if __name__ == '__main__':
-#     ref = False
-#     while not ref:
-#         max_x, max_y = (10, 10)#= r_coordenates()
-#         print (max_x, max_y)
-#         ref = reflections(max_x, max_y)
-#         print (ref)
+
     max_x, max_y = r_coordenates()
     print (max_x, max_y)
     ref = reflections(max_x, max_y)
