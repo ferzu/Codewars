@@ -1,5 +1,5 @@
 
-# Working progress, not yet tested.
+# Working progress code, not yet functional.
 
 def get_reflected_vector(head, tail):
     h0,h1 = head
@@ -12,10 +12,10 @@ def get_reflected_vector(head, tail):
     if h0 == max_x: n = (-1,0)
     if h0 == 0: n = (1,0)
     nx,ny = n
-    ref  = (ix - 2*(ix*nx + iy*ny)*nx, iy - 2*(ix*nx + iy*ny)*ny)
+    ref  = (ix - 2*(ix*nx + iy*ny)*nx, iy - 2*(ix*nx + iy*ny)*ny) # components of the reflected vector, 45
     if abs(h0 - t0) < max_y:
         ref_u = unit_vector(ref)
-        ref = tuple([max_y * x for x in ref_u])
+        ref = tuple([max_y * x for x in ref_u]) # normalizing reflection to max_y
     return ref
 
 def unit_vector (vector):
