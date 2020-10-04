@@ -1,4 +1,6 @@
 
+# Working progress, not yet tested.
+
 def get_reflected_vector(head, tail):
     h0,h1 = head
     t0, t1 = tail
