@@ -153,6 +153,6 @@ def reflections (max_x, max_y):
 
 if __name__ == '__main__':
 
-    max_x, max_y = (10,2)
+#     max_x, max_y = (10,2)
     rf = reflections(max_x, max_y)
     print(rf)
