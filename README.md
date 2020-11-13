@@ -1,4 +1,4 @@
-# Codewars-Katas
+# Codewars Katas
 
 ## Take a 10 minutes walk
 *By JKphobic*
